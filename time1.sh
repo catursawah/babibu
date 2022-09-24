@@ -14,7 +14,7 @@ function start_timer(){
     let seconds=$current_time-$start_time;
  
     echo -en "\r                                        \r"
-    printf "PPROX 1 : %02d:%02d:%02d:%02d" "$((seconds/86400))" "$((seconds/3600%24))" "$((seconds/60%60))" "$((seconds%60))" 
+    printf "ATENG 1 : %02d:%02d:%02d:%02d" "$((seconds/86400))" "$((seconds/3600%24))" "$((seconds/60%60))" "$((seconds%60))" 
     sleep 1;
   done
 }
