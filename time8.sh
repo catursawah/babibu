@@ -2,7 +2,7 @@ let start_time="$(date +%s)";
  
 function main(){
   tput bold
-  echo "GO ATENG GO  ... !!!"
+  echo "GO GO  ... !!!"
   start_timer
   exit 0
 }
@@ -14,7 +14,7 @@ function start_timer(){
     let seconds=$current_time-$start_time;
  
     echo -en "\r                                        \r"
-    printf "ATENG 3 : %02d:%02d:%02d:%02d" "$((seconds/86400))" "$((seconds/3600%24))" "$((seconds/60%60))" "$((seconds%60))" 
+    printf "PRO 8 : %02d:%02d:%02d:%02d" "$((seconds/86400))" "$((seconds/3600%24))" "$((seconds/60%60))" "$((seconds%60))" 
     sleep 1;
   done
 }
